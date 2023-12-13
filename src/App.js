@@ -1,5 +1,7 @@
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+// import MyComponent from './views/Example/MyComponent';
+import AlltodoApp from './todoApp/AlltodoApp';
 
 function App() {
   return (
@@ -7,16 +9,10 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Xin chào Đỗ Chí Hải ádasdas
+          Xin chào  
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        
+        <AlltodoApp></AlltodoApp>
       </header>
     </div>
   );
